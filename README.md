@@ -6,11 +6,11 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 
 ## Feature Requirement
 1. Customer membuat ID transaksi customer berikut: trnsct_123 = Transaction()
-2. Kemudian, Customer memasukkan nama item, jumlah item, dan harga barang = add_item([<nama item>,<jumlah item>,<harga barang>])
+2. Kemudian, Customer memasukkan nama item, jumlah item, dan harga barang = add_item([nama item, jumlah item, harga barang])
 3. Apabila terdapat kesalahan maka bisa update dengan metode:
-      - update nama = update_item_name(<nama item>, <update nama item>)
-      - update jumlah = update_item_qty(<nama item>, <update jumlah item>)
-      - update harga = update_item_price(<nama item>, <update harga item>)
+      - update nama = update_item_name(nama item, update nama item)
+      - update jumlah = update_item_qty(nama item, update jumlah item)
+      - update harga = update_item_price(nama item, update harga item)
 4. Apabila ingin batal membeli maka bisa menggunakan metode:
       - menghapus item = delete_item(<nama item>)
       - menghapus seluruh transaksi = reset_transaction()
